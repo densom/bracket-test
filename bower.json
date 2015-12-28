@@ -1,0 +1,22 @@
+{
+  "name": "bracket-test",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Dennis Somerville <dennis.somerville@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
+  }
+}
