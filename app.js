@@ -3,11 +3,11 @@ var express = require('express');
 var app = express();
 
 app.use(express.static('public'));
-app.use(express.static('src/views'));
-
+app.set('views', './src/views');
+app.set('view engine', 'jade');
 
 app.get('/',function(req, res){
-    res.send('asdf');
+    res.render('index');
 });
 
 var port = 3000;
